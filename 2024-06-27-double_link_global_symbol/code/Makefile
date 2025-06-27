@@ -1,7 +1,7 @@
 # 顶层 Makefile
 
 # 子目录列表（可加更多目录）
-SUBDIRS := libCommon libA libB
+SUBDIRS := libCommon libA libB exe
 
 .PHONY: all clean $(SUBDIRS)
 

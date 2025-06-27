@@ -1,8 +1,8 @@
 #pragma once
 
-#include "MyString.h"
+#include "DemoClass.h"
 
 class Common {
 public:
-    static const MyString kProblemSymbol;
+    static const DemoClass kProblemSymbol;
 };

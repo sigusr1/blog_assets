@@ -1,4 +1,4 @@
 
 #include "Common.h"
 
-const MyString Common::kProblemSymbol("test");
+const DemoClass Common::kProblemSymbol(888);

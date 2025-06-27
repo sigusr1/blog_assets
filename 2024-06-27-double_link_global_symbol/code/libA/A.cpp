@@ -4,5 +4,5 @@
 #include "Common.h"
 
 void printInLibA() {
-    printf("%s:%d kProblemSymbol:%s\n", __func__, __LINE__, Common::kProblemSymbol.c_str());
+    printf("%s:%d kProblemSymbol:%d\n", __func__, __LINE__, Common::kProblemSymbol.value());
 }
