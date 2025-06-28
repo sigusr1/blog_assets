@@ -5,10 +5,9 @@
 class DemoClass {
 public:
     DemoClass(int value);
+    ~DemoClass();
 
     int value() const;
-
-    ~DemoClass();
 
 private:
     int* mValue;
